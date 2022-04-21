@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
 int a[501], b[501], c[502];
@@ -7,7 +6,6 @@ int a[501], b[501], c[502];
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
-
     memset(a, 0, sizeof(a));
     memset(b, 0, sizeof(b));
     string str_a, str_b;
@@ -47,6 +45,5 @@ int main() {
         if (c[i] != 0) f = true;
         if (f) cout << c[i];
     }
-
     return 0;
 }
